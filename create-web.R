@@ -1,0 +1,6 @@
+library(devtools)
+#install_github('rstudio/blogdown')
+library(blogdown)
+new_site(theme = 'gcushen/hugo-academic')
+# serve_site()
+# build_site()
